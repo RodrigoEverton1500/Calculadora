@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+    background: #4d4d4d;
+}
+.container .calculadora{
+    background: rgba(1, 1, 255, 0.2);
+    display: grid;
+}
+.container .calculadora .value{
+    grid-column: span 4;
+    height: 150px;
+    width: 300px;
+    text-align: right;
+    background: transparent;
+    color: beige;
+    font-size: 40px;
+    border: none;
+    outline: none;
+}
+.container .calculadora span{
+    font-size: 35px;
+    display: grid;
+    place-items: center;
+    width: 80px;
+    height: 80px;
+}
+.container .calculadora .apagar{
+    grid-column: span 2;
+    width: 150px;
+}
+.container .calculadora .mais{
+    grid-row: span 2 ;
+    height: 150px;
+}
